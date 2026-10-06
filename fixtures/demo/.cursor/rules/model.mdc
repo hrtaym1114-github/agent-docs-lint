@@ -1,0 +1,3 @@
+# Model Rule
+
+Always use claude-3-opus for long context tasks.
