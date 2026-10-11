@@ -4,6 +4,16 @@
 
 It is designed for `AGENTS.md`, `CLAUDE.md`, `.cursor/rules`, `.claude/agents`, `.claude/skills`, `.agents/skills`, and similar repos where docs are the source of truth.
 
+[![clean vs drift](docs/media/agent-docs-lint-strip.png)](docs/media/agent-docs-lint-howto.gif)
+
+- 🎞️ [GIF（CLEAN ↔ DRIFT）](docs/media/agent-docs-lint-howto.gif) · Release: [v0.1.0](https://github.com/hrtaym1114-github/agent-docs-lint/releases/tag/v0.1.0)
+
+## 使い方（3ステップ）
+
+1. **Install** — `pip install git+https://github.com/hrtaym1114-github/agent-docs-lint.git`
+2. **Run** — リポジトリ直下で `agent-docs-lint .`（LLM・ネットワーク不要）
+3. **結果** — ズレなし **exit 0** / ズレあり **exit 1**（`--warn-only` で常に 0）
+
 ## Install
 
 ```sh
