@@ -1,5 +1,7 @@
 # agent-docs-lint
 
+[English](README.en.md)
+
 `agent-docs-lint` is a zero-LLM CLI for catching drift in agent documentation: missing file references, stale model or plan names, unreferenced agent/skill files, and broken local Markdown anchors.
 
 It is designed for `AGENTS.md`, `CLAUDE.md`, `.cursor/rules`, `.claude/agents`, `.claude/skills`, `.agents/skills`, and similar repos where docs are the source of truth.
