@@ -100,9 +100,9 @@ jobs:
       - run: agent-docs-lint .
 ```
 
-## Demo GIF
+## デモ
 
-Release Desk placeholder: add a short GIF later showing `agent-docs-lint fixtures/demo` failing with all four rule families, followed by `agent-docs-lint fixtures/demo --json`.
+`agent-docs-lint fixtures/demo` と `agent-docs-lint fixtures/demo --json` を実行すると、4 種類すべてのルールによる検出結果を通常の出力と JSON 出力で確認できます。
 
 ## 日本語
 

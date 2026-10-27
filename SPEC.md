@@ -32,7 +32,7 @@ That work should be a **repeatable zero-LLM CLI** for CI and local preflight.
 1. 30s demo: run against `fixtures/demo` → see real FAIL findings
 2. Extracted from real ops (not invented)
 3. One-line install: `pip install git+https://github.com/hrtaym1114-github/agent-docs-lint.git`
-4. GIF/demo video: Release Desk later — README placeholder only (do not block)
+4. GIF/demo video: out of scope for v0.1 (README shows a runnable demo command instead)
 
 ## MVP
 
@@ -65,7 +65,7 @@ CLI `agent-docs-lint [PATH]` (default `.`):
 - Auto-fix / rewriting files
 - Full markdown link checker for http(s) URLs
 - Parsing every proprietary agent YAML schema
-- GIF production (placeholder note in README only)
+- GIF production
 - No `.github/workflows/*` in this repo (document Action snippet in README instead — publisher lacks workflow scope)
 
 ## Package
@@ -73,7 +73,7 @@ CLI `agent-docs-lint [PATH]` (default `.`):
 - MIT, author `hrtaym1114`
 - `pyproject.toml` + `src/agent_docs_lint/`
 - tests with pytest; fixtures/demo with intentional failures
-- README: English primary + short Japanese section; install; usage; example output; GitHub Action snippet; demo GIF placeholder
+- README: English primary + short Japanese section; install; usage; example output; GitHub Action snippet; runnable demo command
 
 ## Demo script (30s)
 ```sh
